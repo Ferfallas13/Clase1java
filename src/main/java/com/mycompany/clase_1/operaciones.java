@@ -6,20 +6,20 @@ public class operaciones {
 
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);//metodo para ingresar datos por teclado
-        double valor1, valor2, suma, resta, division, multiplicacion;
+        double valor, valor1, suma, resta, division, multiplicacion;
         String nombre;
 
         System.out.println("Digite el nombre de la persona");
         nombre = entrada.nextLine();
         System.out.println("Ingrese el primer numero");
-        valor1 = entrada.nextDouble();
+        valor = entrada.nextDouble();
         System.out.println("Ingrese el segundo numero");
-        valor2 = entrada.nextDouble();
+        valor1 = entrada.nextDouble();
 
-        suma = valor1 + valor2;
-        resta = valor1 - valor2;
-        division = valor1 / valor2;
-        multiplicacion = valor1 * valor2;
+        suma = valor + valor1;
+        resta = valor - valor1;
+        division = valor / valor1;
+        multiplicacion = valor * valor1;
 
         System.out.println("El nombre es: "+nombre);
         System.out.println("La suma es: " + suma);
